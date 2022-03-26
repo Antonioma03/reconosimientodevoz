@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inteligensia artifisial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <center>
+        <a href="" id="link" download="selfie.png"></a>
+        <section>
+            <h1>app de voz para tomar selfis</h1>
+            <img src="foto.png" alt="" id="logo">
+            <hr>
+            <h4>as clic en permitir permisos cuando aparesca la bentana</h4>
+        </section>
+        <section>
+<h3>di lapalabra selfi</h3>
+<label>tu salida de vos</label>
+<p></p>
+<textarea id="texto" readonly="true"></textarea>
+
+        </section>
+        <section>
+            <h3>as clic en el boton inisiar</h3>
+            <p></p>
+            <button id="inisiar" onclick="inisiar()">inisiar</button>
+            <p></p>
+            <label> tu camara</label>
+            <p></p>
+            <div id="camara"></div>
+            
+            <p></p>
+            <label> tu selfi</label>
+            <p></p>
+            <div id="resultado"></div>
+        </section>
+    </center>
+<script src="main.js"></script>
+</body>
+</html>
